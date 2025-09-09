@@ -1,0 +1,230 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop HP 250 G10X cu Intel® Core™ i5-1334U, 15.6'' IPS Full HD, 16GB RAM, 512GB SSD, Silver Edition",
+      "price": 3799.99,
+      "category": "laptop",
+      "image": "/products/lpthp250g10.png",
+      "description": "Laptopul HP 250 G10 este partenerul de încredere pentru muncă și studiu, combinând performanța procesorului Intel® Core™ i5-1334U cu grafica Intel® Iris® Xe pentru o experiență fluidă în aplicații de zi cu zi. Ecranul de 15.6” IPS Full HD oferă imagini clare și culori naturale, iar memoria de 16GB DDR4 și stocarea rapidă de 512GB SSD asigură viteză și multitasking eficient. Totul într-un design elegant, Turbo Silver, pregătit pentru productivitate oriunde ai nevoie.",
+      "qty": 0
+    },
+    {
+      "id": 2,
+      "name": "Laptop ASUS TUF A16 Neo cu AMD Ryzen™ 5 7535HS, 16'' WUXGA 144Hz, 16GB DDR5, RTX™ 4050 6GB, Mecha Gray",
+      "price": 4299.99,
+      "category": "laptop",
+      "image": "/products/laptop-asus-tufA16.jpg",
+      "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
+      "qty": 15
+    },
+    {
+      "id": 3,
+      "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+      "price": 4999.99,
+      "category": "laptop",
+      "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+      "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+      "qty": 8
+    },
+    {
+      "id": 4,
+      "name": "Lenovo Yoga Tab Plus, Octa-Core, 12.7'' 3K, 144Hz, 16GB LPDDR5x RAM, 256GB, Wi-Fi®, Tidal Teal + Lenovo Tab Pen Pro",
+      "price": 2649.99,
+      "category": "tableta",
+      "image": "/products/res_6523e094ed921d487bb91201e1bad48f.avif",
+      "description": "Lenovo Yoga Tab Plus este o tabletă premium cu ecran mare de 12,7″ 3K la 144 Hz, procesor Snapdragon puternic, 16 GB RAM și 256 GB stocare, sunet excelent cu 6 difuzoare Harman Kardon, conectivitate Wi-Fi 7 și accesorii incluse precum stylus-ul Lenovo Tab Pen Pro și tastatură, ideală atât pentru divertisment cât și pentru productivitate.",
+      "qty": 12
+    },
+    {
+      "id": 5,
+      "name": "Tableta Apple iPad 10 (2022) v2, 10.9 , 64GB, Wifi, Blue",
+      "price": 4728.99,
+      "category": "tableta",
+      "image": "/products/res_1658fe38f8e5bd171461e9f46d2c0720.jpg",
+      "description": "Apple iPad 10 (2022, generația a 10-a) se remarcă prin ecranul Liquid Retina de 10,9″ cu True Tone și 500 nits luminozitate, motorul A14 Bionic cu 6-core CPU, 4-core GPU și Neural Engine de 16-core, 4 GB RAM cu 64 GB stocare, conectivitate Wi-Fi 6, USB-C, cameri de 12 MP față-verso (inclusiv front-camera poziționată pe muchie pentru apeluri în landscape), Touch ID inclus în butonul de sus, autonomie de până la 10 ore, iar varianta Blue adaugă un strop de culoare modernă.",
+      "qty": 20
+    },
+    {
+      "id": 6,
+      "name": "Desktop PC White Gaming G11 Intel i5-11400 4.4 Ghz Turbo, 16GB DDR4, SSD 1 TB, Placa Video 8GB GDDR5",
+      "price": 2899.99,
+      "category": "pc",
+      "image": "/products/res_d0035b6e7abdd57f36dbeba808959225.avif",
+      "description": "Sistemul Desktop PC White Gaming G11 este echipat cu un procesor Intel i5-11400 de până la 4.4 GHz Turbo, 16GB DDR4 RAM și un SSD rapid de 1TB, oferind performanță excelentă pentru gaming și multitasking. Placa video dedicată de 8GB GDDR5 asigură experiențe vizuale impresionante în jocuri și aplicații grafice. Designul său alb modern adaugă un plus de stil biroului tău, făcându-l alegerea perfectă pentru pasionații de gaming și utilizatorii exigenți.",
+      "qty": 0
+    },
+    {
+      "id": 7,
+      "name": "Lenovo LOQ Tower 17IRR9 cu procesor Intel® Core™ i5-14400F pana la 4.70 GHz, 16GB DDR5, 512GB SSD M.2 2280 PCIe® 4.0x4 NVMe®, AMD Radeon™ RX 7600 8GB GDDR6, No OS, Luna Grey",
+      "price": 5087.02,
+      "category": "pc",
+      "image": "/products/res_170a835284e351b62e6662ec1d38540a.avif",
+      "description": "Lenovo LOQ Tower 17IRR9 este un sistem de gaming puternic, echipat cu procesor Intel® Core™ i5-14400F de până la 4.70 GHz, 16GB DDR5 RAM și stocare rapidă de 512GB SSD M.2 PCIe® 4.0x4 NVMe®. Placa grafică AMD Radeon™ RX 7600 de 8GB GDDR6 oferă performanțe excelente în jocuri moderne. Designul elegant Luna Grey și lipsa unui sistem de operare preinstalat permit personalizarea completă a experienței tale de gaming.",
+      "qty": 40
+    },
+    {
+      "id": 8,
+      "name": "Mouse cu 9 Butoane, Multi-device 3 conexiuni, Mouse Wireless Fara Fir, Soft Customizare Butoane, Mouse Bluetooth, Baterie 800mAh, Mouse 2.4GHz, Mouse lumini RGB, Mouse Ergonomic, Mouse Gaming, DPI 2400, Mouse Office, Universal, Negru",
+      "price": 129.99,
+      "category": "periferice",
+      "image": "/products/res_e8944367187aae3e1b2241377b717738.jfif",
+      "description": "Mouse-ul wireless este un dispozitiv versatil, compatibil cu multiple dispozitive prin 3 conexiuni (2.4GHz și Bluetooth). Cu 9 butoane personalizabile, iluminare RGB și un design ergonomic, acest mouse oferă confort și funcționalitate pentru gaming și utilizare de zi cu zi. Bateria de 800mAh asigură o durată lungă de utilizare, iar DPI-ul ajustabil până la 2400 permite precizie în orice activitate.",
+      "qty": 25
+    },
+    {
+      "id": 9,
+      "name": "Tastatura Mecanica Wireless, Cablu, Bluetooth, 2.4Ghz, RGB, 68 Taste, Functie Hot-Swap, Soft customizabil RGB, Compatibila Play Station, Type C to USB 3.0, Baterie 3150 mAh, Red Switches, Neagra",
+      "price": 345.89,
+      "category": "periferice",
+      "image": "/products/res_714e6b64cb77c242a8849feed3ffda44.webp",
+      "description": "Tastatura mecanică ZENKABEAT oferă flexibilitate prin conectivitate wireless (Bluetooth și 2.4GHz) și cablu USB-C. Cu 68 taste și funcție hot-swap, permite personalizarea ușoară a switch-urilor. Iluminarea RGB personalizabilă adaugă un plus de stil, iar bateria de 3150 mAh asigură o utilizare îndelungată. Compatibilă cu PlayStation, această tastatură este ideală pentru gaming și productivitate.",
+      "qty": 30
+    },
+    {
+      "id": 10,
+      "name": "Tastatura Mecanica Gaming Timebox Red Switch, Iluminare LED, Cablu Type-C, Format Compact si Portabil, Design Negru Gri, Accesoriu Silentios pentru Jocuri sau Birou",
+      "price": 237.49,
+      "category": "periferice",
+      "image": "/products/res_7948a809e3f422a4e718406fd99209da.jpg",
+      "description": "Tastatura mecanică Timebox 60% este compactă și portabilă, ideală pentru gaming și utilizare la birou. Cu 68 taste PBT și switch-uri Red, oferă o experiență de tastare silențioasă și confortabilă. Iluminarea LED adaugă un plus de stil, iar cablul Type-C asigură conectivitate rapidă. Designul elegant negru-gri face din această tastatură un accesoriu practic și estetic.",
+      "qty": 18
+    },
+    {
+      "id": 11,
+      "name": "SSD extern, 1TB, USB 3.2 Gen 2, gri, 52.42x8.95x100.54mm",
+      "price": 798.60,
+      "category": "periferice",
+      "image": "/products/res_d0772b9305b567afa1255209c3e815d5.avif",
+      "description": "SSD-ul extern SanDisk Extreme Portable V2 de 1TB oferă performanță rapidă și portabilitate. Cu viteze de transfer USB 3.2 Gen 2, acest dispozitiv compact (52.42x8.95x100.54mm) este ideal pentru stocarea și accesarea rapidă a fișierelor mari, fie că ești în mișcare sau la birou. Designul său robust și rezistent la șocuri asigură protecția datelor tale importante.",
+      "qty": 22
+    },
+    {
+      "id": 12,
+      "name": "Placa video Biostarr Radeon RX-580 8GB GDDR5 256bit Bulk",
+      "price": 799.99,
+      "category": "componente",
+      "image": "/products/res_07a21bbe0a953e4eab8c1a73bf05b01b.avif",
+      "description": "Placa video Biostar Radeon RX-580 cu 8GB GDDR5 și interfață de 256bit oferă performanțe solide pentru gaming și aplicații grafice. Aceasta suportă tehnologii avansate precum DirectX 12 și Vulkan, asigurând o experiență vizuală captivantă și fluidă. Ideală pentru utilizatorii care doresc să își îmbunătățească sistemul cu o placă grafică eficientă și accesibilă.",
+      "qty": 5
+    },
+    {
+      "id": 13,
+      "name": "Placa de baza Gigabytte B650 GAMING X AX V2, Socket AM5, ATX",
+      "price": 779.98,
+      "category": "componente",
+      "image": "/products/res_0848370478e0fdf1dfac6b94a9efa37a.jpg",
+      "description": "Placa de bază Gigabyte B650 GAMING X AX V2, cu socket AM5 și format ATX, este ideală pentru construirea unui sistem de gaming performant. Aceasta oferă suport pentru procesoare AMD Ryzen de ultimă generație, memorie DDR5 și conectivitate avansată, inclusiv Wi-Fi 6E și PCIe 4.0. Designul robust și caracteristicile orientate spre gaming fac din această placă de bază o alegere excelentă pentru entuziaștii de performanță.",
+      "qty": 7
+    },
+    {
+      "id": 14,
+      "name": "Procesor AMD Ryzeen 5 5600, 4.4GHz, 35MB, socket AM4, Box",
+      "price": 497.67,
+      "category": "componente",
+      "image": "/products/res_ff76db7c7d7968a8fe02a2e29b20c73d.jpg",
+      "description": "Procesorul AMD Ryzen 5 5600, cu frecvență de până la 4.4GHz și 35MB cache, este o alegere excelentă pentru gaming și productivitate. Compatibil cu socket AM4, acest procesor oferă performanțe solide în multitasking și aplicații intensive, fiind ideal pentru utilizatorii care doresc un echilibru între putere și eficiență. Vine în cutie (Box) cu sistem de răcire inclus, asigurând o instalare ușoară și o funcționare optimă.",
+      "qty": 14
+    },
+    {
+      "id": 15,
+      "name": "Consola PlaySation 5 Pro, Digital Edition (PS5), 2TB SSD, White",
+      "price": 3999.99,
+      "category": "consola",
+      "image": "/products/res_c6805f12331c88d43c215c6610b57337.avif",
+      "description": "Consola PlayStation 5 Pro, Digital Edition, cu stocare de 2TB SSD, oferă o experiență de gaming de ultimă generație. Cu performanțe îmbunătățite, grafică avansată și timpi de încărcare reduși, această consolă este ideală pentru pasionații de jocuri care doresc să se bucure de cele mai noi titluri în format digital. Designul elegant alb și tehnologia inovatoare fac din PS5 Pro o alegere excelentă pentru orice gamer.",
+      "qty": 0
+    },
+    {
+      "id": 16,
+      "name": "Consola PlaySation 5 (PS5) Slim, 1TB SSD, D-Chassis, Fortnite Cobalt Star Bundle",
+      "price": 2948.72,
+      "category": "consola",
+      "image": "/products/res_b85dde80b5d7dc46e9acaa5ef9c56dca.avif",
+      "description": "Consola PlayStation 5 Slim, cu stocare de 1TB SSD și design D-Chassis, oferă o experiență de gaming compactă și performantă. Acest pachet include Fortnite Cobalt Star Bundle, oferind acces la conținut exclusiv pentru fanii jocului. Cu performanțe îmbunătățite, grafică avansată și timpi de încărcare reduși, PS5 Slim este ideală pentru jucătorii care doresc să se bucure de cele mai noi titluri într-un format elegant și eficient.",
+      "qty": 11
+    },
+    {
+      "id": 17,
+      "name": "Ochelari VR METtA Quest 3S, 128GB, Alb",
+      "price": 1727.06,
+      "category": "accesorii",
+      "image": "/products/res_f8827734f275af0d9942a924606c636f.avif",
+      "description": "Ochelarii VR META Quest 3S cu 128GB stocare oferă o experiență de realitate virtuală captivantă și imersivă. Aceștia sunt proiectați pentru confort și performanță, permițând utilizatorilor să exploreze lumi virtuale, să joace jocuri și să interacționeze cu conținut digital într-un mod inovator. Designul alb elegant și tehnologia avansată fac din Quest 3S o alegere excelentă pentru pasionații de VR.",
+      "qty": 9
+    },
+    {
+      "id": 18,
+      "name": "Volan Logitekh G923 Trueforce pentru PS5, PS4 and PC",
+      "price": 2205.88,
+      "category": "accesorii",
+      "image": "/products/res_f96b886fe4bb6293acfefdbf2254b276.webp",
+      "description": "Volanul Logitech G923 Trueforce este proiectat pentru a oferi o experiență de conducere realistă pe PS5, PS4 și PC. Cu tehnologia Trueforce, acest volan simulează feedback-ul detaliat al drumului și al mașinii, oferind o senzație autentică în jocurile de curse. Designul robust și funcțiile avansate, cum ar fi pedalele reglabile și butoanele programabile, fac din G923 o alegere excelentă pentru pasionații de simulatoare de conducere.",
+      "qty": 0
+    },
+    {
+      "id": 19,
+      "name": "Buton de joc din metal special, compatibil cu telefoane mobile si tablete, trigger de joc bazat pe impulsuri cu 6 butoane, compatibil cu Pubg, Fortnite, Call of Duty, culoare gri inchis",
+      "price": 39.49,
+      "category": "accesorii",
+      "image": "/products/res_2fd91fb4fbd47f4f5073f8234b4d60e4.avif",
+      "description": "Butonul de joc din metal este un accesoriu esențial pentru pasionații de gaming pe telefoane mobile și tablete. Compatibil cu jocuri populare precum PUBG, Fortnite și Call of Duty, acest trigger de joc cu 6 butoane oferă un control precis și rapid, îmbunătățind experiența de joc. Designul său robust și culoarea gri închis adaugă un plus de stil dispozitivului tău mobil.",
+      "qty": 50
+    },
+    {
+      "id": 20,
+      "name": "Casti earbuds PULSSE Explore, Wireless, White pentru PlayStation 5 si PlayStation Portal",
+      "price": 899.99,
+      "category": "accesorii",
+      "image": "/products/res_edeefa8db24edeffdcc7d102b2d5d0ad.avif",
+      "description": "Căștile earbuds PULSE Explore, Wireless, White sunt concepute special pentru PlayStation 5 și PlayStation Portal, oferind o experiență audio imersivă și confortabilă. Cu conectivitate wireless, aceste căști permit libertate de mișcare și sunet clar, ideal pentru sesiuni lungi de gaming. Designul alb elegant și funcțiile avansate fac din PULSE Explore o alegere excelentă pentru jucătorii care doresc să se bucure de sunet de calitate în timpul jocurilor.",
+      "qty": 17
+    },
+    {
+      "id": 21,
+      "name": "Casti gaming PS5 HyperY Cloud Stinger 2, HP, Cu microfon, Multicolor",
+      "price": 201.20,
+      "category": "accesorii",
+      "image": "/products/res_274da7d46d1d7512279312570eb64155.avif",
+      "description": "Căștile gaming HyperX Cloud Stinger 2 pentru PS5 oferă un sunet de înaltă calitate și confort pe termen lung. Echipate cu un microfon ajustabil și tehnologie de anulare a zgomotului, aceste căști asigură comunicare clară în timpul jocurilor. Designul lor ușor și materialele premium fac din HyperX Cloud Stinger 2 o alegere excelentă pentru jucătorii care doresc să își îmbunătățească experiența de gaming.",
+      "qty": 19
+    },
+    {
+      "id": 22,
+      "name": "Casti audio pentru gaming T-Wolf cu microfon ajustabil omnidirectional 360 grade, efect sunet 7.1, conexiune USB compatibil PC, Laptop, iluminare LED, eliminare sunet exterior, control volum, ajustare dimensiune, fir conexiune 130 cm",
+      "price": 150.39,
+      "category": "accesorii",
+      "image": "/products/res_919b07d75bbad4474ae6a46d45295cd2.avif",
+      "description": "Căștile audio pentru gaming T-Wolf oferă o experiență imersivă cu sunet 7.1 și microfon ajustabil omnidirecțional de 360 de grade. Compatibile cu PC și laptop, aceste căști vin cu iluminare LED, control al volumului și eliminare a zgomotului exterior pentru o comunicare clară. Designul ajustabil și firul de 130 cm asigură confort și flexibilitate în timpul sesiunilor de gaming prelungite.",
+      "qty": 27
+    },
+    {
+      "id": 23,
+      "name": "Lenovo Legion Pro 7 16IAX10H cu procesor Intel® Core™ Ultra 9 275HX pana la 5.4GHz, 16'' WQXGA, OLED, 240Hz, 32GB DDR5 RAM, 1TB SSD, NVIDIA® GeForce RTX™ 5080 16GB GDDR7, Windows® 11 Home, Eclipse Black, 3y on-site Premium Care",
+      "price": 16899.99,
+      "category": "laptop",
+      "image": "/products/res_4078fe428d4b11935e87ceb9d64c361d.jpg",
+      "description": "Lenovo Legion Pro 7 16IAX10H este un laptop de gaming de top, echipat cu procesor Intel® Core™ Ultra 9 275HX de până la 5.4GHz, ecran OLED WQXGA de 16” la 240Hz, 32GB DDR5 RAM și stocare rapidă de 1TB SSD. Placa grafică NVIDIA® GeForce RTX™ 5080 de 16GB GDDR7 oferă performanțe excepționale în jocuri moderne. Cu Windows® 11 Home preinstalat și design Eclipse Black, acest laptop este ideal pentru gamerii care caută putere și stil într-un singur pachet.",
+      "qty": 4
+    },
+    {
+      "id": 24,
+      "name": "Acer Gaming Predator Helios 18 AI PH18-73-956S cu procesor Intel® Core™ Ultra 9 275HX pana la 5.4GHz, 18'', WQXGA, IPS, 250Hz, 128GB DDR5 RAM, 6TB SSD, NVIDIA® GeForce RTX™ 5080 16 GB GDDR7, Windows 11 Home, Abyssal Black",
+      "price": 27899.99,
+      "category": "laptop",
+      "image": "/products/res_100a1010f11aa9296138cf80119ef839.jpg",
+      "description": "Acer Predator Helios 18 AI PH18-73-956S este un laptop de gaming de ultimă generație, echipat cu procesor Intel® Core™ Ultra 9 275HX de până la 5.4GHz, ecran WQXGA de 18” la 250Hz, impresionanți 128GB DDR5 RAM și stocare masivă de 6TB SSD. Placa grafică NVIDIA® GeForce RTX™ 5080 de 16GB GDDR7 asigură performanțe excepționale în cele mai noi jocuri. Cu Windows 11 Home preinstalat și designul elegant Abyssal Black, acest laptop este perfect pentru gamerii care doresc putere și performanță fără compromisuri.",
+      "qty": 0
+    }
+  ],
+  "comands": [],
+  "returns": [],
+  "users": [],
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123"
+    }
+  ]
+}

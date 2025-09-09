@@ -1,0 +1,30 @@
+import styled from "styled-components";
+import './../components/Colors.css'
+
+export const PrimaryTitle = styled.h1`
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+`;
+
+export const SecondaryTitle = styled.h2`
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: var(--secondary-color);
+`;
+
+export const Button = styled.button`
+  color: #fff;
+  background-color: #202020;
+  border: 2px solid #00e9fe;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  &:hover {
+  background-color: #00e9fe;
+  color: #000;
+  }
+  `;

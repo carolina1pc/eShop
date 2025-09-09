@@ -1,0 +1,13 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: var(--text-color);
+  background-color: #111111;
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}

@@ -1,0 +1,154 @@
+.navbar-container {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #0a0a0acc;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px #00e0fe92;
+    border-bottom: var(--primary-color) 1px solid;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.home {
+    margin-left: 20px;
+}
+
+.home svg {
+    width: 150px;
+}
+
+ .home svg:hover {
+    stroke: #ffffff; 
+} 
+
+.logo-desktop {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    margin-right: 20px;
+}
+
+.favorites a,
+ .cart a{
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.login a {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.login a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.login a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.favorites a:hover,
+ .cart a:hover {
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+ .contact {
+    margin-left: 20px;
+    margin-right: 10px;
+ }
+
+ .nav-list {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+ }
+
+ .nav-mobile {
+    display: none;
+    width: 100%;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    padding: 8px;
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        padding: 0 0px;
+        justify-content: flex-end;
+    }
+
+    .nav-list {
+    position: absolute;
+    top: 60px;
+    background: #000;
+    box-shadow: 0 4px 8px #00fee04e;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    display: none;
+    }
+
+    .nav-list.open {
+        display: flex;
+    }
+
+    .nav-mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+    }
+
+    .search-mobile {
+        color: #fff;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-mobile {
+      margin-right: 10px;
+      display: block;
+    }
+}
