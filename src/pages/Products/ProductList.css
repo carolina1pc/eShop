@@ -1,14 +1,22 @@
 .product-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  display: flex-inline;
+  flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  justify-content: center;
 }
 
-@media (max-width: 480px) {
-  .product-list {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    padding: 12px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    margin-inline: 30px;
   }
 }

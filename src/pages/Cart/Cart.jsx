@@ -20,7 +20,7 @@ function Cart() {
   };
 
     const handleSubmit = (e) => {
-    e.preventDefault(); // oprește refresh-ul paginii
+    e.preventDefault();
 
     if (cart.length === 0) {
       alert("Coșul este gol!");
@@ -34,18 +34,36 @@ function Cart() {
     };
 
     fetch("http://localhost:5000/comands", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(order),
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(order),
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log("Comanda a fost salvată:", data);
+
+      cart.forEach((item) => {
+        const newStock = item.stock - item.qty;
+
+        fetch(`http://localhost:5000/products/${item.id}`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ stock: newStock }),
+        })
+          .then((res) => res.json())
+          .then((updated) =>
+            console.log(`Stoc actualizat pt ${updated.name}: ${updated.stock}`)
+          )
+          .catch((err) => console.error("Eroare la update stoc:", err));
+      });
+
+      alert("Comanda trimisă cu succes!");
     })
-      .then((res) => res.json())
-      .then((data) => alert("Comanda a fost trimisă cu succes!"))
-      .catch((err) => console.error(err));
-  };
+    .catch((err) => console.error(err));
+};
 
   return (
     <div className="cart-container">
-      {/* dacă coșul e gol */}
       {cart.length === 0 ? (
         <p>Coșul este gol</p>
       ) : (

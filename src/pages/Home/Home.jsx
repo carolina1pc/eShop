@@ -25,7 +25,9 @@ function Home() {
       <div className='home-advertising'>
         {/* <img src="/assets/images/advertising/20112.avif" alt="Home Advertising" /> */}
         </div>
+        <div className="cards">
         <ProductList products={products} />
+        </div>
       </div>
   </>
   )
