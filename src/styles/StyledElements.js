@@ -8,15 +8,14 @@ export const PrimaryTitle = styled.h1`
 `;
 
 export const SecondaryTitle = styled.h2`
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-  color: var(--secondary-color);
+  font-size: 18px;
+  color: var(--text-color);
 `;
 
 export const Button = styled.button`
   color: #fff;
   background-color: #202020;
-  border: 2px solid #00e9fe;
+  border: 2px solid var(--primary-color);
   padding: 10px 20px;
   border-radius: 20px;
   cursor: pointer;

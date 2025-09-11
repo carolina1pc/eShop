@@ -29,8 +29,37 @@
   border-radius: 18px;
 }
 
+.categories-title {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .categories-title {
+    background: linear-gradient(90deg,#0095ff, #06d9ec, #01f059);
+    margin: 0;
+    padding-left: 23px;
+    display: block;
+  }
+
+  .categories-title,
+.categories-bar {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
   .categories-bar {
-    display: none;
+    background: var(--background-secondary-color);
+  }
+  .categories-bar ul {
+    flex-direction: column;
+    gap: 10px;
+     display: block;
+    justify-content: flex-start;
+  }
+
+  .categories-bar li a{
+    font-size: 12px;
+    padding: 4px;
   }
 }
