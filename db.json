@@ -16,7 +16,7 @@
       "category": "laptop",
       "image": "/products/laptop-asus-tufA16.jpg",
       "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
-      "stock": 13
+      "stock": 12
     },
     {
       "id": "3",
@@ -266,6 +266,31 @@
         "adresa": "Strada Mihai Eminescu, nr.10C"
       },
       "total": "8599.98"
+    },
+    {
+      "id": "cf40",
+      "produse": [
+        {
+          "id": "2",
+          "name": "Laptop ASUS TUF A16 Neo cu AMD Ryzen™ 5 7535HS, 16'' WUXGA 144Hz, 16GB DDR5, RTX™ 4050 6GB, Mecha Gray",
+          "price": 4299.99,
+          "category": "laptop",
+          "image": "/products/laptop-asus-tufA16.jpg",
+          "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
+          "stock": 13,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Pop",
+        "prenume": "Maria",
+        "telefon": "0772123456",
+        "email": "pop.maria@example.com",
+        "judetul": "Sibiu",
+        "localitatea": "Sibiu",
+        "adresa": "Strada Sperantei, nr. 8"
+      },
+      "total": "4299.99"
     }
   ],
   "returns": [],

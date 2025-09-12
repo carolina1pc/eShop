@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: 20px;
     width: 100%;
 }
 
@@ -18,11 +17,15 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
-    margin: 30px;
 }
 
 .text-footer {
-    width: 600px;
+    width: 500px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-left: 20px;
 }
 
 .footer-list {
@@ -60,10 +63,6 @@
     flex-direction: column;
     gap: 20px;
     margin: 10px;
-  }
-
-  .footer-list {
-    
   }
 
   .text-footer {

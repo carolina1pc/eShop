@@ -21,7 +21,7 @@ function Footer() {
                 <li className='link-footer'><Link to="/Privacy">Politica de confidentialitate</Link></li>
             </ul>
             </div>
-            <p>&copy; {new Date().getFullYear()} Shop Project. All rights reserved.</p>
+            <p className='footer-text'>&copy; {new Date().getFullYear()} Shop Project. All rights reserved.</p>
         </div>
         </footer>
     );

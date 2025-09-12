@@ -7,11 +7,10 @@
   background-color: #1a1a1a;
   border: 2px solid transparent;
   border-radius: 12px;
-  transition: all 0.3s ease;
   max-width: 230px;
   height: 380px;
   cursor: default;
-  box-shadow: 0 4px 12px #ffffff4d;
+  box-shadow: 0 0 12px #ffffff4d;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -46,7 +45,7 @@
 .card-price {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #00ff6a;
+  color: #ff4000;
 }
 
 .price-decimals {
