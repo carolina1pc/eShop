@@ -69,30 +69,34 @@ function Cart() {
       ) : (
         cart.map((item) => (
           <div className="cart-item" key={item.id}>
-            <span>{item.name}</span>
-            <input
-              type="number"
-              value={item.qty}
-              min="1"
-              onChange={(e) => updateQty(item.id, e.target.value)}
-            />
-            <span>{(item.price * item.qty).toFixed(2)} Lei</span>
-            <Button onClick={() => removeFromCart(item.id)}>Remove</Button>
+            <div className="item-info">
+            <img src={item.image} alt={item.name} className="card-image-cart" />
+            <span className="text-name-item">{item.name}</span>
+            <button className='btn-delete-cart' onClick={() => removeFromCart(item.id)}>Șterge</button>
+            </div>
+            <div className="item-info">
+            <div className="qty-control">
+              <button onClick={() => updateQty(item.id, item.qty - 1)}>-</button>
+              <span>{item.qty}</span>
+              <button onClick={() => updateQty(item.id, item.qty + 1)}>+</button>
+            </div>
+            <span className="card-price">{(item.price * item.qty).toFixed(2)} Lei</span>
+            </div>
           </div>
         ))
       )}
 
-      <p>Total: {total} Lei</p>
+      <p className="cart-total-text">Total: {total} Lei</p>
 
-      <form onSubmit={handleSubmit}>
-        <input name="nume" value={formData.nume} onChange={handleChange} placeholder="Nume" required />
-        <input name="prenume" value={formData.prenume} onChange={handleChange} placeholder="Prenume" required />
-        <input name="telefon" value={formData.telefon} onChange={handleChange} placeholder="Telefon" required />
-        <input name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
-        <input name="localitatea" value={formData.localitatea} onChange={handleChange} placeholder="Localitatea" required />
-        <input name="judetul" value={formData.judetul} onChange={handleChange} placeholder="Judetul" required />
-        <input name="adresa" value={formData.adresa} onChange={handleChange} placeholder="Adresa" required />
-        <Button type="submit">Trimite comanda</Button>
+      <form className="client-form" onSubmit={handleSubmit}>
+        <input className="client-input" name="nume" value={formData.nume} onChange={handleChange} placeholder="Nume" required />
+        <input className="client-input" name="prenume" value={formData.prenume} onChange={handleChange} placeholder="Prenume" required />
+        <input className="client-input" name="telefon" value={formData.telefon} onChange={handleChange} placeholder="Telefon" required />
+        <input className="client-input" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
+        <input className="client-input" name="localitatea" value={formData.localitatea} onChange={handleChange} placeholder="Localitatea" required />
+        <input className="client-input" name="judetul" value={formData.judetul} onChange={handleChange} placeholder="Judetul" required />
+        <input className="client-input" name="adresa" value={formData.adresa} onChange={handleChange} placeholder="Adresa" required />
+        <Button className="client-btn" type="submit">Trimite comanda</Button>
       </form>
     </div>
   )
