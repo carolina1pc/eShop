@@ -94,6 +94,12 @@
   color: #f5f5f5;
 }
 
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
 .client-input::placeholder {
   color: #aaa;
 }
@@ -106,6 +112,43 @@
 
 .client-btn {
   width: 250px;
+}
+
+.terms-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+
+.terms-checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.custom-checkbox {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: inline-block;
+}
+
+.terms-checkbox input[type="checkbox"]:checked + .custom-checkbox {
+  background: #ccc;
+}
+
+.terms-link {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.terms-link:hover {
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {

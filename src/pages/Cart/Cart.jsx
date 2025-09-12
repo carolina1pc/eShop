@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Button } from '../../styles/StyledElements.js';
 import { CartContext } from './CartContext.jsx';
+import { Link } from 'react-router-dom';
 import './Cart.css'
 
 function Cart() {
@@ -15,23 +16,33 @@ function Cart() {
     adresa: ''
   });
 
+  const [termsError, setTermsError] = useState("");
+
     const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-    const handleSubmit = (e) => {
-    e.preventDefault();
+   const handleSubmit = (e) => {
+  e.preventDefault();
 
-    if (cart.length === 0) {
-      alert("Coșul este gol!");
-      return;
-    }
+  if (cart.length === 0) {
+    alert("Coșul este gol!");
+    return;
+  }
 
-    const order = {
-      produse: cart,
-      dateClient: formData,
-      total,
-    };
+  const termsCheckbox = e.target.querySelector('input[type="checkbox"]');
+  if (!termsCheckbox.checked) {
+    setTermsError("Trebuie să accepți Termenii și condițiile!");
+    return;
+  }
+
+  setTermsError(""); // dacă e bifat, mesajul dispare
+
+  const order = {
+    produse: cart,
+    dateClient: formData,
+    total,
+  };
 
     fetch("http://localhost:5000/comands", {
     method: "POST",
@@ -96,6 +107,12 @@ function Cart() {
         <input className="client-input" name="localitatea" value={formData.localitatea} onChange={handleChange} placeholder="Localitatea" required />
         <input className="client-input" name="judetul" value={formData.judetul} onChange={handleChange} placeholder="Judetul" required />
         <input className="client-input" name="adresa" value={formData.adresa} onChange={handleChange} placeholder="Adresa" required />
+        <label className="terms-checkbox">
+  <input type="checkbox" />
+  <span className="custom-checkbox"></span>
+  Accept <Link to="/terms" className="terms-link">Termenii și condițiile</Link>
+</label>
+{termsError && <p className="error-message">{termsError}</p>}
         <Button className="client-btn" type="submit">Trimite comanda</Button>
       </form>
     </div>

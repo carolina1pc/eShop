@@ -16,7 +16,7 @@
       "category": "laptop",
       "image": "/products/laptop-asus-tufA16.jpg",
       "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
-      "stock": 12
+      "stock": 9
     },
     {
       "id": "3",
@@ -25,7 +25,7 @@
       "category": "laptop",
       "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
       "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
-      "stock": 8
+      "stock": 7
     },
     {
       "id": "4",
@@ -291,6 +291,81 @@
         "adresa": "Strada Sperantei, nr. 8"
       },
       "total": "4299.99"
+    },
+    {
+      "id": "263f",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 8,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0765345678",
+        "email": "pop.maria1@example.com",
+        "judetul": "Sector 1",
+        "localitatea": "Bucuresti",
+        "adresa": "Str. Calea Dorobantilor, nr. 23"
+      },
+      "total": "4999.99"
+    },
+    {
+      "id": "62d2",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 8,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Ioana",
+        "prenume": "Maria",
+        "telefon": "0765345678",
+        "email": "pop.maria1@example.com",
+        "judetul": "Sector 1",
+        "localitatea": "Bucuresti",
+        "adresa": "Str. Calea Dorobantilor, nr. 40"
+      },
+      "total": "4999.99"
+    },
+    {
+      "id": "baff",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 8,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Ioana",
+        "prenume": "Maria",
+        "telefon": "0765345678",
+        "email": "pop.maria1@example.com",
+        "judetul": "Sector 1",
+        "localitatea": "Bucuresti",
+        "adresa": "Str. Calea Dorobantilor, nr. 40"
+      },
+      "total": "4999.99"
     }
   ],
   "returns": [],
