@@ -2,9 +2,9 @@ import styled from "styled-components";
 import './../components/Colors.css'
 
 export const PrimaryTitle = styled.h1`
-  font-size: 2.5rem;
+  font-size: 30pxrem;
   margin-bottom: 10px;
-  color: var(--primary-color);
+  color: var(--text-color);
 `;
 
 export const SecondaryTitle = styled.h2`

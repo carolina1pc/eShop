@@ -27,7 +27,9 @@ function Card({ product }) {
         <span className="price-decimals">{decimalPart}</span> lei
         </p>
 
-        <button className="add-cart-button" onClick={() => addToCart(product)}>
+        <button className={`add-cart-button ${product.stock === 0 ? "disabled" : ""}`}
+        onClick={() => addToCart(product)}
+        disabled={product.stock === 0}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="9" cy="21" r="1"/>
               <circle cx="20" cy="21" r="1"/>
@@ -35,7 +37,6 @@ function Card({ product }) {
             </svg>
          </button>
          </div>
-      {/* <p>{product.description}</p> */}
       </div>
   );
 }

@@ -33,6 +33,15 @@
   display: none;
 }
 
+.add-product-btn {
+  background-color: #01f05900;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .categories-title {
     background: linear-gradient(90deg,#0095ff, #06d9ec, #01f059);

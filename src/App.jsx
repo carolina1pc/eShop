@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState} from "react";
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import Home from './pages/Home/Home.jsx';
 import Login from './pages/Login/Login.jsx';
@@ -13,13 +14,15 @@ import Footer from './components/Footer/Footer.jsx';
 import Retur from './pages/Retur/Retur.jsx';
 import Category from "./pages/Categories/Category.jsx";
 import TermsPage from "./pages/Terms/TermsPage.jsx";
-import './App.css'
+import ProductPage from "./pages/Products/Products.jsx";
+import './App.css';
+import './components/Colors.css';
 
 function App() {
   return (
     <>
     <ErrorBoundary>
-      <Navbar /> 
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -32,6 +35,7 @@ function App() {
         <Route path="/retur" element={<Retur />} />
         <Route path="/category/:name" element={<Category />} />
         <Route path="/terms" element={<TermsPage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
       </Routes>
     </ErrorBoundary> 
     <Footer />

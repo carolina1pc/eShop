@@ -5,3 +5,23 @@
     --background-color: #0a0a0ab9;
     --background-secondary-color: #202020;
 }
+
+.dark-page {
+  background-color: #111;
+  color: #fff;
+}
+
+.light-page {
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+.dark-page .card {
+  background-color: #222;
+  color: #fff;
+}
+
+.light-page .card {
+  background-color: #fff;
+  color: #111;
+}
