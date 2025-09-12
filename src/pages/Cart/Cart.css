@@ -1,4 +1,3 @@
-/* fundal dark pentru tot coșul */
 .cart-container {
   background-color: #202020;
   box-shadow: 0px 1px 30px #000000ad;
@@ -6,13 +5,11 @@
   padding: 20px;
   border-radius: 10px;
   max-width: 800px;
-  /* min-height: 700px; ma mai gandesc daca sa pun asta */
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* card produs */
 .cart-item {
   display: flex;
   justify-content: space-between;
@@ -23,14 +20,12 @@
   border-radius: 8px;
 }
 
-/* nume + cantitate + pret */
 .item-info {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-/* input cantitate */
 .item-info input {
   width: 60px;
   padding: 5px;
@@ -39,7 +34,6 @@
   text-align: center;
 }
 
-/* buton submit */
 .submit-button {
   background-color: #00e9fe;
   color: #121212;
