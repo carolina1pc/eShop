@@ -36,7 +36,7 @@ function Cart() {
     return;
   }
 
-  setTermsError(""); // dacă e bifat, mesajul dispare
+  setTermsError("");
 
   const order = {
     produse: cart,
@@ -73,6 +73,9 @@ function Cart() {
     .catch((err) => console.error(err));
 };
 
+const totalPrice = total.toFixed(2);
+const [totalInt, totalDec] = totalPrice.split(".");
+
   return (
     <div className="cart-container">
       {cart.length === 0 ? (
@@ -91,13 +94,25 @@ function Cart() {
               <span>{item.qty}</span>
               <button onClick={() => updateQty(item.id, item.qty + 1)}>+</button>
             </div>
-            <span className="card-price">{(item.price * item.qty).toFixed(2)} Lei</span>
+            <span className="card-price">
+              {(() => {
+                const price = (item.price * item.qty).toFixed(2);
+                const [intPart, decimalPart] = price.split(".");
+                return (
+                <>
+                <span className="card-price">{intPart}</span>
+                <span className="price-decimals">{decimalPart} Lei</span>
+                </>
+                );
+                })()}
+                </span>
             </div>
           </div>
         ))
       )}
 
-      <p className="cart-total-text">Total: {total} Lei</p>
+      <p className="cart-total-text">Total: <span className="price-int">{totalInt}</span>
+  <span className="price-decimals">{totalDec} Lei</span></p>
 
       <form className="client-form" onSubmit={handleSubmit}>
         <input className="client-input" name="nume" value={formData.nume} onChange={handleChange} placeholder="Nume" required />
@@ -108,12 +123,10 @@ function Cart() {
         <input className="client-input" name="judetul" value={formData.judetul} onChange={handleChange} placeholder="Judetul" required />
         <input className="client-input" name="adresa" value={formData.adresa} onChange={handleChange} placeholder="Adresa" required />
         <label className="terms-checkbox">
-  <input type="checkbox" />
-  <span className="custom-checkbox"></span>
-  Accept <Link to="/terms" className="terms-link">Termenii și condițiile</Link>
-</label>
-{termsError && <p className="error-message">{termsError}</p>}
-        <Button className="client-btn" type="submit">Trimite comanda</Button>
+          <input type="checkbox" /><span className="custom-checkbox"></span>Accept 
+          <Link to="/terms" className="terms-link">Termenii și condițiile</Link></label>
+          {termsError && <p className="error-message">{termsError}</p>}
+          <Button className="client-btn" type="submit">Trimite comanda</Button>
       </form>
     </div>
   )

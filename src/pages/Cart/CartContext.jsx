@@ -43,9 +43,7 @@ export function CartProvider({ children }) {
     );
   };
 
-  const total = cart
-  .reduce((acc, item) => acc + item.price * item.qty, 0)
-  .toFixed(2);
+  const total = cart.reduce((acc, item) => acc + item.price * item.qty, 0);
 
   const totalItems = cart.reduce((acc, item) => acc + item.qty, 0);
 
