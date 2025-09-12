@@ -76,7 +76,7 @@ function Cart() {
               min="1"
               onChange={(e) => updateQty(item.id, e.target.value)}
             />
-            <span>{item.price * item.qty} Lei</span>
+            <span>{(item.price * item.qty).toFixed(2)} Lei</span>
             <Button onClick={() => removeFromCart(item.id)}>Remove</Button>
           </div>
         ))
