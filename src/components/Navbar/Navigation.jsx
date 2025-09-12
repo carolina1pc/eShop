@@ -18,7 +18,7 @@ function Navbar() {
 </Link>
 
     <SearchBox />
-    
+
         <button
           className="menu-btn"
           onClick={() => setMenuOpen(!menuOpen)}
