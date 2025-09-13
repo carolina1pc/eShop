@@ -2,12 +2,35 @@ import { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import SearchBox from '../SearchBox/SearchBox.jsx';
 import { CartContext } from '../../pages/Cart/CartContext.jsx';
+import Add from '../../pages/Add/Add.jsx';
+import productsData from '../../../db.json';
 import './Navigation.css';
 import '../Colors.css';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { totalItems } = useContext(CartContext);
+
+  const [isAdding, setIsAdding] = useState(false);
+  const handleOpenAddModal = () => setIsAdding(true);
+  const handleCloseAddModal = () => setIsAdding(false);
+
+  const handleAddProduct = (newProduct) => {
+  fetch("http://localhost:5000/products", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      ...newProduct,
+      price: Number(newProduct.price),
+      stock: Number(newProduct.stock)
+    }),
+  })
+    .then(res => res.json())
+    .then(data => {
+      console.log("Produs adăugat:", data);
+      handleCloseAddModal();
+    });
+};
 
   return (
     <nav className='navbar-container'>
@@ -17,7 +40,7 @@ function Navbar() {
   </span>
 </Link>
 
-    <SearchBox />
+    <SearchBox products={productsData.products} />
 
         <button
           className="menu-btn"
@@ -39,18 +62,12 @@ function Navbar() {
   <img src="/text-eshop.svg" alt="eShop Text" style={{ marginLeft: '8px', height: '24px' }} />
 </span>
         </Link></li>
-        <li className='search'><SearchBox /></li>
+        <li className='search'><SearchBox products={productsData.products} /></li>
         </ul>
-      <ul className={`nav-list ${menuOpen ? 'open' : ''}`}>
 
-        <li className='favorites'>
-          <Link to="/favorites">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M20.8 4.6c-1.5-1.4-3.9-1.4-5.4 0l-.9.9-.9-.9c-1.5-1.4-3.9-1.4-5.4 0-1.6 1.5-1.6 4 0 5.5l6.3 6.2 6.3-6.2c1.6-1.5 1.6-4 0-5.5z"/>
-            </svg>Favorite
-          </Link>
-        </li>
-        
+      <ul className={`nav-list ${menuOpen ? 'open' : ''}`}>
+        <button onClick={handleOpenAddModal} className="add-product-btn">Adaugă Produs</button>
+        {isAdding && (<Add onClose={handleCloseAddModal} onAdd={handleAddProduct} />)}
         <li className='cart'>
           <Link to="/cart">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
