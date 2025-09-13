@@ -1,12 +1,60 @@
-# React + Vite
+# Shop Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project built with **Vite**, a small demo online shop.  
+The site works locally with **JSON Server** to simulate a database, but on Netlify or other static hosts, the products will not be visible without an external API.
 
-Currently, two official plugins are available:
+<img width="1295" height="858" alt="image" src="https://github.com/user-attachments/assets/9231a1a5-ed3f-4c54-af8c-5817ea5cc74b" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Display products from `db.json` (local only)
+- Uses **React Router** for navigation
+- Styled with **Styled Components**
+- Product filtering and sorting
+- Responsive design for desktop and mobile
+
+---
+
+## Installation
+
+1. Clone the project:
+
+```bash
+git clone https://github.com/your-username/shop-project.git
+cd shop-project
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Install any additional packages if needed:
+```bash
+npm install styled-components json-server react-router-dom
+```
+
+4. Start JSON Server to serve the local database:
+```bash
+npx json-server --watch db.json --port 5000
+npm run server
+```
+
+On Netlify or any static host, products will not display, because db.json is not accessible as a server.
+
+To see the data online, you need an external API (like JSONBin, Supabase, or Firebase) or Netlify Functions.
+
+---
+
+## Technologies Used
+
+React + Vite
+
+Styled Components
+
+JSON Server (for local development)
+
+React Router
