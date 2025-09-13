@@ -3,6 +3,13 @@
 This is a React project built with **Vite**, a small demo online shop.  
 The site works locally with **JSON Server** to simulate a database, but on Netlify or other static hosts, the products will not be visible without an external API.
 
+## Live Demo
+
+You can see the live site here (products will only show locally):
+
+[https://eshop-demo1.netlify.app/](https://eshop-demo1.netlify.app/)
+
+
 <img width="1295" height="858" alt="image" src="https://github.com/user-attachments/assets/9231a1a5-ed3f-4c54-af8c-5817ea5cc74b" />
 
 
