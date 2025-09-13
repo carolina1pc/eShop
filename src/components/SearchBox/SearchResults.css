@@ -1,0 +1,13 @@
+.search-results-page {
+  padding: 20px;
+}
+
+.search-results-page h2 {
+  margin-bottom: 20px;
+}
+
+.search-results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
