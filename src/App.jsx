@@ -7,11 +7,12 @@ import Contact from './pages/Contact/Contact.jsx';
 import Cart from './pages/Cart/Cart.jsx';
 import Navbar from './components/Navbar/Navigation.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import Retur from './pages/Retur/Retur.jsx';
 import Category from "./pages/Categories/Category.jsx";
 import TermsPage from "./pages/Terms/TermsPage.jsx";
 import ProductPage from "./pages/Products/Products.jsx";
 import SearchResults from "./components/SearchBox/SearchResults.jsx";
+import AboutUs from "./pages/About/AboutUs.jsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy.jsx";
 import './App.css';
 import './components/Colors.css';
 
@@ -26,11 +27,12 @@ function App() {
         <Route path="/add" element={<Add />} />
         <Route path="/edit" element={<Edit />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/retur" element={<Retur />} />
         <Route path="/category/:name" element={<Category />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/search/:query" element={<SearchResults />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </ErrorBoundary> 
     <Footer />

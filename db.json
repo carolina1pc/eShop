@@ -16,7 +16,7 @@
       "category": "laptop",
       "image": "/products/laptop-asus-tufA16.jpg",
       "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
-      "stock": 17
+      "stock": 14
     },
     {
       "id": "3",
@@ -25,7 +25,7 @@
       "category": "laptop",
       "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
       "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
-      "stock": 7
+      "stock": 6
     },
     {
       "id": "4",
@@ -366,10 +366,93 @@
         "adresa": "Str. Calea Dorobantilor, nr. 40"
       },
       "total": "4999.99"
+    },
+    {
+      "id": "e8a8",
+      "produse": [
+        {
+          "id": "2",
+          "name": "Laptop ASUS TUF A16 Neo cu AMD Ryzen™ 5 7535HS, 16'' WUXGA 144Hz, 16GB DDR5, RTX™ 4050 6GB, Mecha Gray",
+          "price": 4299.99,
+          "category": "laptop",
+          "image": "/products/laptop-asus-tufA16.jpg",
+          "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
+          "stock": 17,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0774034533",
+        "email": "asdf@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "Iasi",
+        "adresa": "Strada Mihai Eminescu, nr.10C"
+      },
+      "total": 4299.99
+    },
+    {
+      "id": "b750",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 7,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "077406868",
+        "email": "maria.popescu@example.com",
+        "judetul": "Sector 1",
+        "localitatea": "BUCURESTI ",
+        "adresa": "Strada Sperantei, nr. 89"
+      },
+      "total": 4999.99
+    },
+    {
+      "id": "57f5",
+      "produse": [
+        {
+          "id": "2",
+          "name": "Laptop ASUS TUF A16 Neo cu AMD Ryzen™ 5 7535HS, 16'' WUXGA 144Hz, 16GB DDR5, RTX™ 4050 6GB, Mecha Gray",
+          "price": 4299.99,
+          "category": "laptop",
+          "image": "/products/laptop-asus-tufA16.jpg",
+          "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
+          "stock": 16,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Dan",
+        "telefon": "0773234567",
+        "email": "asdfsdas@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "Iasi",
+        "adresa": "Strada Sperantei, nr. 893"
+      },
+      "total": 4299.99
     }
   ],
   "returns": [],
   "users": [],
+  "messages": [
+    {
+      "id": "db63",
+      "name": "test",
+      "email": "test@gmail.com",
+      "message": "test"
+    }
+  ],
   "admins": [
     {
       "id": "1",
