@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Cards from "../Cards/Cards.jsx";
 import productsData from '../../../db.json';
+import CategoryBar from "../CategoryBar/CategoryBar.jsx";
 import "./SearchResults.css";
 
 function SearchResults() {
@@ -17,6 +18,8 @@ function SearchResults() {
   : [];
 
   return (
+    <>
+    <CategoryBar />
     <div className="search-results-page">
       <h2>Rezultate pentru "{searchTerm}"</h2>
       {filtered.length === 0 ? (
@@ -29,6 +32,7 @@ function SearchResults() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

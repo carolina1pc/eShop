@@ -46,6 +46,7 @@
 .product-price-decimals {
   font-size: 16px;
   margin-left: 2px;
+  vertical-align: super;
 }
 
 .action-buttons {

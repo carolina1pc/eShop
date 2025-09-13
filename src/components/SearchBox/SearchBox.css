@@ -77,12 +77,6 @@
   color: #fe0000;
 }
 
-.price-decimals {
-  font-size: 0.8em;
-  vertical-align: super;
-  margin-left: 1px;
-}
-
 @media (max-width: 768px) {
   .searchbox-icon {
     right: 35px;

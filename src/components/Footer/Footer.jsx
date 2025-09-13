@@ -11,14 +11,13 @@ function Footer() {
             <ul className='footer-list'>
                 <li className='title-footer-list'>Suport clienti</li>
                 <li className='link-footer'><Link to="/Contact">Contact</Link></li>
-                <li className='link-footer'><Link to="/Retur">Formular returnare produs</Link></li>
                 <li className='link-footer'><Link to="https://anpc.ro/?ref=footer_3_6">PROTECŢIA CONSUMATORILOR - A.N.P.C.</Link></li>
+                <li className='link-footer'><Link to="/privacy-policy">Politica de confidentialitate</Link></li>
             </ul>
             <ul className='footer-list'>
                 <li className='title-footer-list'>Despre noi</li>
                 <li className='link-footer'><Link to="/About">Despre noi</Link></li>
                 <li className='link-footer'><Link to="/Terms">Termeni si conditii</Link></li>
-                <li className='link-footer'><Link to="/Privacy">Politica de confidentialitate</Link></li>
             </ul>
             </div>
             <p className='footer-text'>&copy; {new Date().getFullYear()} Shop Project. All rights reserved.</p>

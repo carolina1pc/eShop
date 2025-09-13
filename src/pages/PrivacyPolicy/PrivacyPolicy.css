@@ -1,0 +1,41 @@
+.privacy-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  color: #ddd;
+}
+
+.privacy-page h1 {
+  color: #00e9fe;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.privacy-page h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #00b8cc;
+}
+
+.privacy-page p {
+  margin-bottom: 15px;
+}
+
+.privacy-page ul {
+  margin-left: 20px;
+  list-style: disc;
+}
+
+.privacy-page li {
+  margin-bottom: 10px;
+}
+
+.last-updated {
+  margin-top: 30px;
+  font-style: italic;
+  color: #777;
+  text-align: right;
+}

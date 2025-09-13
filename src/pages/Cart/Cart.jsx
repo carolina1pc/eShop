@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Cart.css'
 
 function Cart() {
-  const { cart, removeFromCart, updateQty, total } = useContext(CartContext);
+  const { cart, removeFromCart, updateQty, total, clearCart } = useContext(CartContext);
   const [formData, setFormData] = useState({
     nume: '',
     prenume: '',
@@ -69,6 +69,9 @@ function Cart() {
       });
 
       alert("Comanda trimisă cu succes!");
+
+      clearCart();
+    setFormData({ name: "", email: "", address: "" });
     })
     .catch((err) => console.error(err));
 };
@@ -115,13 +118,13 @@ const [totalInt, totalDec] = totalPrice.split(".");
   <span className="price-decimals">{totalDec} Lei</span></p>
 
       <form className="client-form" onSubmit={handleSubmit}>
-        <input className="client-input" name="nume" value={formData.nume} onChange={handleChange} placeholder="Nume" required />
-        <input className="client-input" name="prenume" value={formData.prenume} onChange={handleChange} placeholder="Prenume" required />
-        <input className="client-input" name="telefon" value={formData.telefon} onChange={handleChange} placeholder="Telefon" required />
-        <input className="client-input" name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
-        <input className="client-input" name="localitatea" value={formData.localitatea} onChange={handleChange} placeholder="Localitatea" required />
-        <input className="client-input" name="judetul" value={formData.judetul} onChange={handleChange} placeholder="Judetul" required />
-        <input className="client-input" name="adresa" value={formData.adresa} onChange={handleChange} placeholder="Adresa" required />
+        <input className="client-input" name="nume" value={formData.nume || ""} onChange={handleChange} placeholder="Nume" required />
+        <input className="client-input" name="prenume" value={formData.prenume || ""} onChange={handleChange} placeholder="Prenume" required />
+        <input className="client-input" name="telefon" value={formData.telefon || ""} onChange={handleChange} placeholder="Telefon" required />
+        <input className="client-input" name="email" value={formData.email || ""} onChange={handleChange} placeholder="Email" required />
+        <input className="client-input" name="localitatea" value={formData.localitatea || ""} onChange={handleChange} placeholder="Localitatea" required />
+        <input className="client-input" name="judetul" value={formData.judetul || ""} onChange={handleChange} placeholder="Judetul" required />
+        <input className="client-input" name="adresa" value={formData.adresa || ""} onChange={handleChange} placeholder="Adresa" required />
         <label className="terms-checkbox">
           <input type="checkbox" /><span className="custom-checkbox"></span>Accept 
           <Link to="/terms" className="terms-link">Termenii și condițiile</Link></label>

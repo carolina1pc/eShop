@@ -47,8 +47,12 @@ export function CartProvider({ children }) {
 
   const totalItems = cart.reduce((acc, item) => acc + item.qty, 0);
 
+  const clearCart = () => {
+    setCart([]); // Golește coșul complet
+  };
+
     return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, updateQty, total, totalItems }}>
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart, updateQty, total, totalItems, clearCart }}>
       {children}
     </CartContext.Provider>
   );
