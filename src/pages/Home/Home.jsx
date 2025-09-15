@@ -5,11 +5,7 @@ import Card from '../../components/Cards/Cards.jsx';
 import ProductList from '../Products/ProductList.jsx';
 import './Home.css';
 
-// import Image1 from '../../assets/images/advertising/20112.avif';
-
-
 function Home() {
-
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -20,10 +16,9 @@ function Home() {
 
   return (
   <>
-  <CategoryBar />  {/* pe mobile sa trec categoriile in nav menu si sa le fac un separator simplu ex: o linie, bara etc; si sa fie afisate jos, deci 2 divuri cu space-between */}
+  <CategoryBar />
     <div className="homepage-container">
       <div className='home-advertising'>
-        {/* <img src="/assets/images/advertising/20112.avif" alt="Home Advertising" /> */}
         </div>
         <div className="cards">
         <ProductList products={products} />
