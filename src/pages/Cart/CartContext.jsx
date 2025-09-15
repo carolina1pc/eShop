@@ -48,7 +48,7 @@ export function CartProvider({ children }) {
   const totalItems = cart.reduce((acc, item) => acc + item.qty, 0);
 
   const clearCart = () => {
-    setCart([]); // Golește coșul complet
+    setCart([]);
   };
 
     return (
