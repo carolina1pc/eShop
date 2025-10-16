@@ -1,22 +1,13 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Laptop HP 250 G10X cu Intel® Core™ i5-1334U, 15.6'' IPS Full HD, 16GB RAM, 512GB SSD, Silver Edition",
-      "price": 3799.99,
-      "category": "laptop",
-      "image": "/products/lpthp250g10.png",
-      "description": "Laptopul HP 250 G10 este partenerul de încredere pentru muncă și studiu, combinând performanța procesorului Intel® Core™ i5-1334U cu grafica Intel® Iris® Xe pentru o experiență fluidă în aplicații de zi cu zi. Ecranul de 15.6” IPS Full HD oferă imagini clare și culori naturale, iar memoria de 16GB DDR4 și stocarea rapidă de 512GB SSD asigură viteză și multitasking eficient. Totul într-un design elegant, Turbo Silver, pregătit pentru productivitate oriunde ai nevoie.",
-      "stock": 0
-    },
-    {
       "id": "2",
       "name": "Laptop ASUS TUF A16 Neo cu AMD Ryzen™ 5 7535HS, 16'' WUXGA 144Hz, 16GB DDR5, RTX™ 4050 6GB, Mecha Gray",
       "price": 4299.99,
       "category": "laptop",
       "image": "/products/laptop-asus-tufA16.jpg",
       "description": "ASUS TUF Gaming A16 este alegerea ideală pentru pasionații de gaming și creativitate. Cu un procesor AMD Ryzen™ 5 7535HS și grafică NVIDIA® GeForce RTX™ 4050, acest laptop oferă performanță excelentă în jocuri și aplicații intensive. Ecranul de 16 WUXGA, 144Hz, asigură imagini fluide și detalii clare, iar memoria de 16GB DDR5 și stocarea rapidă de 512GB SSD îți garantează multitasking fără compromisuri. Totul într-un design solid, Mecha Gray, pregătit pentru orice provocare.",
-      "stock": 14
+      "stock": 12
     },
     {
       "id": "3",
@@ -25,7 +16,7 @@
       "category": "laptop",
       "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
       "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
-      "stock": 6
+      "stock": 4
     },
     {
       "id": "4",
@@ -61,7 +52,7 @@
       "category": "pc",
       "image": "/products/res_170a835284e351b62e6662ec1d38540a.avif",
       "description": "Lenovo LOQ Tower 17IRR9 este un sistem de gaming puternic, echipat cu procesor Intel® Core™ i5-14400F de până la 4.70 GHz, 16GB DDR5 RAM și stocare rapidă de 512GB SSD M.2 PCIe® 4.0x4 NVMe®. Placa grafică AMD Radeon™ RX 7600 de 8GB GDDR6 oferă performanțe excelente în jocuri moderne. Designul elegant Luna Grey și lipsa unui sistem de operare preinstalat permit personalizarea completă a experienței tale de gaming.",
-      "stock": 40
+      "stock": 37
     },
     {
       "id": "8",
@@ -70,7 +61,7 @@
       "category": "periferice",
       "image": "/products/res_e8944367187aae3e1b2241377b717738.jfif",
       "description": "Mouse-ul wireless este un dispozitiv versatil, compatibil cu multiple dispozitive prin 3 conexiuni (2.4GHz și Bluetooth). Cu 9 butoane personalizabile, iluminare RGB și un design ergonomic, acest mouse oferă confort și funcționalitate pentru gaming și utilizare de zi cu zi. Bateria de 800mAh asigură o durată lungă de utilizare, iar DPI-ul ajustabil până la 2400 permite precizie în orice activitate.",
-      "stock": 25
+      "stock": 24
     },
     {
       "id": "9",
@@ -79,7 +70,7 @@
       "category": "periferice",
       "image": "/products/res_714e6b64cb77c242a8849feed3ffda44.webp",
       "description": "Tastatura mecanică ZENKABEAT oferă flexibilitate prin conectivitate wireless (Bluetooth și 2.4GHz) și cablu USB-C. Cu 68 taste și funcție hot-swap, permite personalizarea ușoară a switch-urilor. Iluminarea RGB personalizabilă adaugă un plus de stil, iar bateria de 3150 mAh asigură o utilizare îndelungată. Compatibilă cu PlayStation, această tastatură este ideală pentru gaming și productivitate.",
-      "stock": 30
+      "stock": 29
     },
     {
       "id": "10",
@@ -214,6 +205,33 @@
       "category": "laptop",
       "image": "/products/res_100a1010f11aa9296138cf80119ef839.jpg",
       "description": "Acer Predator Helios 18 AI PH18-73-956S este un laptop de gaming de ultimă generație, echipat cu procesor Intel® Core™ Ultra 9 275HX de până la 5.4GHz, ecran WQXGA de 18” la 250Hz, impresionanți 128GB DDR5 RAM și stocare masivă de 6TB SSD. Placa grafică NVIDIA® GeForce RTX™ 5080 de 16GB GDDR7 asigură performanțe excepționale în cele mai noi jocuri. Cu Windows 11 Home preinstalat și designul elegant Abyssal Black, acest laptop este perfect pentru gamerii care doresc putere și performanță fără compromisuri.",
+      "stock": 0
+    },
+    {
+      "id": "1cf6",
+      "name": "Laptop HP 250 G10X cu Intel® Core™ i5-1334U, 15.6'' IPS Full HD, 16GB RAM, 512GB SSD, Silver Edition",
+      "price": 234,
+      "category": "laptop",
+      "image": "https://lcdn.mediagalaxy.ro/media/catalog/product/t/a/tableta_samsung_galaxy_tab_a9_navy_3_1a41d79d.jpg",
+      "description": "test",
+      "stock": 23
+    },
+    {
+      "id": "a484",
+      "name": "Laptop HP 250 G10X cu Intel® Core™ i5-1334U, 15.6'' IPS Full HD, 16GB RAM, 512GB SSD, Silver Edition",
+      "price": 45,
+      "category": "laptop",
+      "image": "/products/lpthp250g10.png",
+      "description": "4645",
+      "stock": 4
+    },
+    {
+      "id": "ea42",
+      "name": "Laptop HP 250 G10X cu Intel® Core™ i5-1334U, 15.6'' IPS Full HD, 16GB RAM, 512GB SSD, Silver Edition",
+      "price": 12,
+      "category": "consola",
+      "image": "/products/lpthp250g10.png",
+      "description": "blsblsbls",
       "stock": 0
     }
   ],
@@ -441,6 +459,186 @@
         "adresa": "Strada Sperantei, nr. 893"
       },
       "total": 4299.99
+    },
+    {
+      "id": "1cd1",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 6,
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Lenovo Yoga Tab Plus, Octa-Core, 12.7'' 3K, 144Hz, 16GB LPDDR5x RAM, 256GB, Wi-Fi®, Tidal Teal + Lenovo Tab Pen Pro",
+          "price": 2649.99,
+          "category": "tableta",
+          "image": "/products/res_6523e094ed921d487bb91201e1bad48f.avif",
+          "description": "Lenovo Yoga Tab Plus este o tabletă premium cu ecran mare de 12,7″ 3K la 144 Hz, procesor Snapdragon puternic, 16 GB RAM și 256 GB stocare, sunet excelent cu 6 difuzoare Harman Kardon, conectivitate Wi-Fi 7 și accesorii incluse precum stylus-ul Lenovo Tab Pen Pro și tastatură, ideală atât pentru divertisment cât și pentru productivitate.",
+          "stock": 12,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0774040049",
+        "email": "karolinapetrovici9@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "ORSOVA",
+        "adresa": "Strada Sperantei, nr. 89"
+      },
+      "total": 7649.98
+    },
+    {
+      "id": "1833",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 6,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0774040049",
+        "email": "karolinapetrovici9@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "BUCURESTI (SECTOR 4)",
+        "adresa": "Str. Calea Dorobantilor, nr. 23"
+      },
+      "total": 4999.99
+    },
+    {
+      "id": "0436",
+      "produse": [
+        {
+          "id": "7",
+          "name": "Lenovo LOQ Tower 17IRR9 cu procesor Intel® Core™ i5-14400F pana la 4.70 GHz, 16GB DDR5, 512GB SSD M.2 2280 PCIe® 4.0x4 NVMe®, AMD Radeon™ RX 7600 8GB GDDR6, No OS, Luna Grey",
+          "price": 5087.02,
+          "category": "pc",
+          "image": "/products/res_170a835284e351b62e6662ec1d38540a.avif",
+          "description": "Lenovo LOQ Tower 17IRR9 este un sistem de gaming puternic, echipat cu procesor Intel® Core™ i5-14400F de până la 4.70 GHz, 16GB DDR5 RAM și stocare rapidă de 512GB SSD M.2 PCIe® 4.0x4 NVMe®. Placa grafică AMD Radeon™ RX 7600 de 8GB GDDR6 oferă performanțe excelente în jocuri moderne. Designul elegant Luna Grey și lipsa unui sistem de operare preinstalat permit personalizarea completă a experienței tale de gaming.",
+          "stock": 40,
+          "qty": 3
+        },
+        {
+          "id": "9",
+          "name": "Tastatura Mecanica Wireless, Cablu, Bluetooth, 2.4Ghz, RGB, 68 Taste, Functie Hot-Swap, Soft customizabil RGB, Compatibila Play Station, Type C to USB 3.0, Baterie 3150 mAh, Red Switches, Neagra",
+          "price": 345.89,
+          "category": "periferice",
+          "image": "/products/res_714e6b64cb77c242a8849feed3ffda44.webp",
+          "description": "Tastatura mecanică ZENKABEAT oferă flexibilitate prin conectivitate wireless (Bluetooth și 2.4GHz) și cablu USB-C. Cu 68 taste și funcție hot-swap, permite personalizarea ușoară a switch-urilor. Iluminarea RGB personalizabilă adaugă un plus de stil, iar bateria de 3150 mAh asigură o utilizare îndelungată. Compatibilă cu PlayStation, această tastatură este ideală pentru gaming și productivitate.",
+          "stock": 30,
+          "qty": 1
+        },
+        {
+          "id": "8",
+          "name": "Mouse cu 9 Butoane, Multi-device 3 conexiuni, Mouse Wireless Fara Fir, Soft Customizare Butoane, Mouse Bluetooth, Baterie 800mAh, Mouse 2.4GHz, Mouse lumini RGB, Mouse Ergonomic, Mouse Gaming, DPI 2400, Mouse Office, Universal, Negru",
+          "price": 129.99,
+          "category": "periferice",
+          "image": "/products/res_e8944367187aae3e1b2241377b717738.jfif",
+          "description": "Mouse-ul wireless este un dispozitiv versatil, compatibil cu multiple dispozitive prin 3 conexiuni (2.4GHz și Bluetooth). Cu 9 butoane personalizabile, iluminare RGB și un design ergonomic, acest mouse oferă confort și funcționalitate pentru gaming și utilizare de zi cu zi. Bateria de 800mAh asigură o durată lungă de utilizare, iar DPI-ul ajustabil până la 2400 permite precizie în orice activitate.",
+          "stock": 25,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0774040049",
+        "email": "karolinapetrovici9@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "ORSOVA",
+        "adresa": "Strada Sperantei, nr. 7"
+      },
+      "total": 15736.94
+    },
+    {
+      "id": "05c2",
+      "produse": [
+        {
+          "id": "ea42",
+          "name": "Laptop HP 250 G10X cu Intel® Core™ i5-1334U, 15.6'' IPS Full HD, 16GB RAM, 512GB SSD, Silver Edition",
+          "price": 12,
+          "category": "consola",
+          "image": "/products/lpthp250g10.png",
+          "description": "blsblsbls",
+          "stock": 1,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0774040049",
+        "email": "karolinapetrovici9@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "BUCURESTI (SECTOR 4)",
+        "adresa": "Str. Calea Dorobantilor, nr. 23"
+      },
+      "total": 12
+    },
+    {
+      "id": "d0c5",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 5,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0774040049",
+        "email": "karolinapetrovici9@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "ORSOVA",
+        "adresa": "Strada Sperantei, nr. 88888888888888"
+      },
+      "total": 4999.99
+    },
+    {
+      "id": "714a",
+      "produse": [
+        {
+          "id": "3",
+          "name": "Apple MacBook Air 13'', cu procesor Apple M4, 10 nuclee CPU si 8 nuclee GPU, 16GB RAM, 256GB, Midnight, Tastatura Internationala, Manual RO",
+          "price": 4999.99,
+          "category": "laptop",
+          "image": "/products/res_5c960c1dd00b776f0a71c8673e11eae5.avif",
+          "description": "MacBook Air 13'' cu procesor Apple M4 oferă performanță excepțională și eficiență ridicată, ideal pentru creativitate și productivitate zilnică. Cu 10 nuclee CPU și 8 nuclee GPU, acest laptop face față cu brio multitasking-ului și aplicațiilor grafice. Memoria de 16GB RAM și stocarea rapidă de 256GB asigură funcționare fluentă, iar ecranul de 13” oferă imagini clare și culori naturale. Design-ul elegant Midnight și tastatura internațională completează experiența premium, perfect pregătit pentru orice provocare.",
+          "stock": 5,
+          "qty": 1
+        }
+      ],
+      "dateClient": {
+        "nume": "Popescu",
+        "prenume": "Maria",
+        "telefon": "0774040049",
+        "email": "karolinapetrovici9@gmail.com",
+        "judetul": "Iasi",
+        "localitatea": "BUCURESTI (SECTOR 4)",
+        "adresa": "Strada Sperantei, nr. 7"
+      },
+      "total": 4999.99
     }
   ],
   "returns": [],

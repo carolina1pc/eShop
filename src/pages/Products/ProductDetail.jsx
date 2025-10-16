@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { CartContext } from "../../pages/Cart/CartContext";
 import { PrimaryTitle } from "../../styles/StyledElements";
 import "./ProductDetail.css";
+import styles from "./ProductDetail.module.css";
 
 export default function ProductDetail({ product, onEdit, onDelete, onAddToCart }) {
   if (!product) return <p>Se încarcă produsul...</p>;
@@ -14,6 +15,8 @@ export default function ProductDetail({ product, onEdit, onDelete, onAddToCart }
   return (
     <div className="product-detail-container-horizontal">
       <h2 className="product-name">{product.name}</h2>
+
+      <div className={styles.container}>
       <div className="product-image">
         <img src={product.image} alt={product.name} />
       </div>
@@ -45,6 +48,7 @@ export default function ProductDetail({ product, onEdit, onDelete, onAddToCart }
           <p className="out-of-stock">Produsul nu este pe stoc</p>
           )}
 
+      </div>
       </div>
       <div className="product-description-section">
       <PrimaryTitle>Descriere</PrimaryTitle>

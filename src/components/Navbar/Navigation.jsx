@@ -6,6 +6,7 @@ import Add from '../../pages/Add/Add.jsx';
 import productsData from '../../../db.json';
 import './Navigation.css';
 import '../Colors.css';
+import styles from './Nav.module.css';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ function Navbar() {
 };
 
   return (
-    <nav className='navbar-container'>
+    <nav className={styles.navbar}>
       <div className="nav-mobile">
         <Link to="/">
         <span className="logo-mobile"><img src="/logo-eshop.svg" alt="eShop Logo" width="30px" height="30px"/>
