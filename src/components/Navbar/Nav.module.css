@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #0a0a0acc;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px #00e0fe92;
+    border-bottom: var(--primary-color) 1px solid;
+}

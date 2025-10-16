@@ -40,7 +40,6 @@ const handleEdit = () => {
       .then(res => {
         if (res.ok) {
           alert("Produsul a fost șters cu succes!");
-          // poți face un redirect sau actualiza lista de produse
         } else {
           alert("A apărut o eroare la ștergere!");
         }
